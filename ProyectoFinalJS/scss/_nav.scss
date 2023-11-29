@@ -1,0 +1,129 @@
+@import "variables";
+
+header {
+  background-color: rgb(123, 114, 114);
+  display: flex;
+  flex-direction: column;
+  font-family: $fuenteNormal;
+  position: sticky;
+  top:0px
+}
+.nav {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  img {
+    width: 10rem;
+    height: 4rem;
+  }
+}
+.nav-list {
+  display: none;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1rem;
+  a{
+    color: #000000;
+    text-decoration: none;
+  }
+}
+.nav-burguer {
+  padding-right: 3rem;
+  cursor: pointer;
+}
+.nav-carrito{
+  cursor: pointer;
+}
+.nav-carrito_table {
+  display: none;
+  padding: 10px;
+  background-color: #f1f1f1;
+  ;
+  table {
+    width: 100%;
+    th {
+      padding: 9px;
+      text-align: center;
+    }
+    tbody {
+      td:nth-child(5) {
+        background-color: #832c2c;
+        border-radius: 30px;
+      }
+      td {
+        text-align: center;
+        a{
+          text-decoration: none;
+          color: rgb(37, 37, 77);
+        }
+      }
+    }
+  }
+}
+.visibility-block{
+  display:block;  
+}
+.opciones-compra{
+  visibility: hidden;
+}
+.opciones-compra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .nav-carrito_comprar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #e6e6e6;
+    width: 13rem;
+    height: 2rem;
+    align-items: center;
+    padding: 2px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    a {
+      text-decoration: none;
+      color: rgb(18, 87, 151);
+    }
+  }
+  .nav-carrito_vaciarCarrito {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #6b1f1f;
+    width: 10rem;
+    height: 2rem;
+    align-items: center;
+    padding: 2px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+.nav-list_responsive {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(169, 217, 217);
+  list-style: none;
+  text-transform: uppercase;
+  li {
+    padding: 2px;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+.visibility-flex{
+  display: flex;
+}
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}

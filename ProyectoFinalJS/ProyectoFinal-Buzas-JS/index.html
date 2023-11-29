@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500&family=Gloria+Hallelujah&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>TAPITOL</title>
+</head>
+<body>
+    <header class="content">
+        <nav class="nav" id="nav">
+            <figure class="nav-logo">
+                <img src="./img/Tapitol-Logo1.png" alt="imagen logo">
+            </figure>
+            <figure id="botton-burger" class="nav-burguer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </figure>
+            <ul class="nav-list">
+                <li><a href="#">SILLONES</a></li>
+                <li><a href="#">TELAS</a></li>
+                <li><a href="#">NUESTRA EMPRESA</a></li>
+                <li><a href="#">CONTACTANOS</a></li>
+            </ul>
+            <figure class="nav-carrito">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                  </svg>
+                </figure>
+            </nav>
+            <ul class="nav-list_responsive">
+                <li><a href="#">SILLONES</a></li>
+                <li><a href="#">TELAS</<a></li>
+                <li><a href="#">NUESTRA EMPRESA</a></li>
+                <li><a href="#">CONTACTANOS</a></li>
+            </ul>
+
+
+
+            
+            <div id="carrito" class="nav-carrito_table">
+                <table>
+                  <tr>
+                      <thead>
+                          <th>PRODUCTO</th>
+                          <th>NOMBRE</th>
+                          <th>PRECIO</th>
+                          <th>CANTIDAD</th>
+                          <th>X</th>
+                      </thead>
+                  </tr>
+                  <tbody>
+                  </tbody>
+                </table>
+                <div class="opciones-compra">
+                    <div class="nav-carrito_vaciarCarrito">
+                        <a href="#" class="btn-vaciar">VACIAR CARRITO</a>
+                    </div>
+                    <div class="nav-carrito_comprar">
+                      <p>TOTAL:</p>
+                      <p id="total"></p>
+                      <a href="#" id="comprar">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="contenedorCarruseles">
+            <article class="carruselResponsive content">
+                <section class="carruselRresponsive-tittle">
+                    <h1>TAPITOL</h1>
+                    <h2>Tapizados y sillones</h2>
+                </section>
+                <section class="carruselRresponsive-contenidoTexto">
+                    <figure>
+                        <img src="./img/Tapitol-Logo1.png" alt="TAPITOLOGO">
+                    </figure>
+                    <div>
+                       
+                    </div>
+                </section>
+            </article>
+            <article class="content carrusel">
+                <div class="textoInfo">
+                    <section class="carrusel-tittle">
+                        <h1>TAPITOL</h1>
+                        <h2>tapizados y sillones</h2>
+                    </section>
+                    <section class="carrusel-contenidoTexto">
+                        <figure>
+                            <img src="./img/sillonsinfondo.jpg" alt="imagen pastel">
+                        </figure>
+                        <div>
+                           
+                        </div>
+                    </section>
+                </div>
+                <figure class="imagenPrincipal">
+                    <img src="./img/sillonpng.png" alt="sillon">
+                </figure>
+            </article>
+        </div>
+        <article id="grid-productos" class="content gridProductos">
+            <div class="texto">
+                <h2>SILLONES</h2>
+                <p>Elige entre nuestras opciones</p>
+            </div>
+            <div class="grid-productos contenido">
+              <article class="card 1">
+                <img src="./img/Sillones/Golden-2018.jpg" alt="">
+                <div class="texto-card">
+                  <h3>SILLON GOLDEN</h3>
+                  <p>$270.000</p>
+                  <a class="boton" href="#" data-id="1">AGREGAR AL CARRITO</a>
+                </div>
+              </article>
+              <article class="card 2">
+                <img src="./img/Sillones/aloha.jpg" alt="">
+                <div class="texto-card">
+                  <h3>SILLON ALOHA</h3>
+                  <p>$300.000</p>
+                  <a class="boton" href="#" data-id="2">AGREGAR AL CARRITO</a>
+                </div>
+              </article>
+              <article class="card 3">
+                <img src="./img/Sillones/Sofá-Asia.jpg" alt="">
+                <div class="texto-card">
+                  <h3>SOFA ASIA</h3>
+                  <p>$220.000</p>
+                  <a class="boton" href="#" data-id="3">AGREGAR AL CARRITO</a>
+                </div>
+            </div>
+            <div class="texto">
+                <h2>NUESTRAS TELAS</h2>
+                <p>Elige entre nuestras opciones</p>
+            </article>
+            <article class="card 6">
+              <img src="./img/Telas/chenille-orly.jpg" alt="">
+              <div class="texto-card">
+                <h3>CHENILLE</h3>
+                <p>$50.000</p>
+                <a class="boton" href="#" data-id="6">AGREGAR AL CARRITO</a>
+              </div>
+            </article>
+            <article class="card 7">
+              <img src="./img/Telas/lienzo.jpg" alt="">
+              <div class="texto-card">
+                <h3>LIENZO</h3>
+                <p>$60.000</p>
+                <a class="boton" href="#" data-id="7">AGREGAR AL CARRITO</a>
+              </div>
+            </article>
+            <article class="card 8">
+              <img src="./img/Telas/telasexpress-kansas-vison.jpg" alt="">
+              <div class="texto-card">
+                <h3>KANSAS VISION</h3>
+                <p>$40.000</p>
+                <a class="boton" href="#" data-id="8">AGREGAR AL CARRITO</a>
+              </div>
+            </article>
+          </div>
+            </div>
+        </article>       
+    </main>  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/funcionalidades.js"></script>
+    <SCript src="./js/main.js"></SCript>
+    <script src="./js/app.js"></script> 
+</body>
+</html>

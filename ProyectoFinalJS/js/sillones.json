@@ -1,0 +1,21 @@
+[{
+    "imagen":"./img/Sillones/Golden-2018.jpg",
+    "nombre":"SILLON ASIA",
+    "precio":"270.000",
+    "id":"1"
+},
+{
+    "imagen":"./img/Sillones/aloha.jpg",
+    "nombre":"SILLON ALOHA",
+    "precio":"300.000",
+    "id":"2"
+
+},
+{
+    "imagen":"./img/Sillones/Sofá-Asia.jpg",
+    "nombre":"SILLON ASIA",
+    "precio":"220.000",
+    "id":"3"
+
+}
+]

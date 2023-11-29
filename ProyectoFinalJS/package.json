@@ -1,0 +1,24 @@
+{
+  "name": "tapitol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pablobuzas/ProyectoFinal-Buzas-JS"
+  },
+  "author": "Pablo Buzas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pablobuzas/ProyectoFinal-Buzas-JS"
+  },
+  "homepage": "https://github.com/Pablobuzas/ProyectoFinal-Buzas-JS",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.1",
+    "sweetalert2": "^11.9.0",
+    "toastify-js": "^1.12.0"
+  }
+}
