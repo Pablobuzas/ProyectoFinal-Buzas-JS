@@ -18,7 +18,7 @@ fetch('./js/telas.json')
 const contenedorSillones = document.querySelector('#grid-productos');
 
 function cargarSilloness(sillones) {
-    pasteles.forEach(sillon =>{
+    sillones.forEach(sillon =>{
         const {imagen, nombre, precio, id}= sillon
         const section = document.createElement('section');
         section.classList.add('card');
@@ -32,7 +32,7 @@ function cargarSilloness(sillones) {
                         <a class="boton" href="#" data-id="${id}">AGREGAR AL CARRITO</a>
                     </footer>
         `
-        contenedorSilloneses.insertBefore(section, contenedorSillones.children[1] )
+        contenedorSillones.insertBefore(section, contenedorSillones.children[1] )
     }) 
 }
 function cargarTelas(telas) {
@@ -50,6 +50,6 @@ function cargarTelas(telas) {
                         <a class="boton" href="#" data-id="${id}">AGREGAR AL CARRITO</a>
                     </footer>
         `
-        contenedorTelas.appendChild(section)
+        contenedorSillones.appendChild(section)
     }) 
 }
