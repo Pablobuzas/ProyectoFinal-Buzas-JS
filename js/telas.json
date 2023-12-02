@@ -1,0 +1,21 @@
+[{
+    "imagen":"./img/Telas/chenille-orly.jpg",
+    "nombre":"Chenille",
+    "precio":"50.000",
+    "id":"4"
+},
+{
+    "imagen":"./img/Telas/lienzo.jpg",
+    "nombre":"Lienzo",
+    "precio":"60.000",
+    "id":"5"
+
+},
+{
+    "imagen":"./img/Telas/telasexpress-kansas-vison.jpg",
+    "nombre":"Kansas vision",
+    "precio":"40.000",
+    "id":"6"
+
+}
+]
